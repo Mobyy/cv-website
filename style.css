@@ -1,0 +1,67 @@
+/*nav mygtukai*/
+.navbuttons {
+  text-align: center;
+  padding-top: 10px;
+  background-color: #2f5d62;
+}
+#Intro,
+#interests,
+#more-about,
+#work,
+#contacts {
+  color: white;
+  font-size: small;
+  width: 100%;
+}
+/*trumpai apie save*/
+.smallabout {
+  padding-top: 150px;
+  background-color: #2f5d62;
+  text-align: center;
+  padding-bottom: 50px;
+}
+/*pomėgiai*/
+.interests {
+  padding-top: 40px;
+  background-color: #5e8b7e;
+  text-align: center;
+}
+.interests p {
+  color: white;
+}
+.imgcomputer,
+.imgbook {
+  border-radius: 200px;
+  width: 300px;
+  height: 300px;
+}
+@media (max-width: 565px) {
+  .imgcomputer .imgbook {
+    width: 250px;
+    height: 250px;
+  }
+}
+/*daugiau apie mane*/
+.more-about {
+  color: white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+  background-color: #254a52;
+}
+/*darbo patirtis*/
+.work {
+  padding-top: 50px;
+  color: white;
+  background-color: #2f5d62;
+}
+.work h4 {
+  padding-top: 20px;
+}
+/*contacts*/
+.contacts {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  background-color: #152d35;
+}
